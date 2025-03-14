@@ -26,14 +26,14 @@ Tijdens de cursusavonden zijn er ook activiteiten in het restaurant van Novalis.
 
 **Communicatie**
 
-* We houden je op de hoogte via [Meetup.com](https://www.meetup.com/nl-NL/vughtse-programmeerclub/events/305722332) en GitHub, hiernaast heeft de Vughtse Programmeer Club ook een appgroep. Tijdens de cursusavonden kan je aangeven of we je hieraan kunnen toevoegen.
+* We houden je op de hoogte via [Meetup.com](https://www.meetup.com/nl-NL/vughtse-programmeerclub/events/305722332) en GitHub. Hiernaast heeft de Vughtse Programmeer Club ook een appgroep. Tijdens de cursusavonden kan je aangeven of we je hieraan kunnen toevoegen.
 
 **Techniek**
 
 * Als programmeeromgeving gebruiken we [Thonny](https://thonny.org/) Het is handig als je dit programma **vooraf installeert** op jouw laptop.
 * Thonny is geschikt voor Windows, Mac en Linux. Tijdens de curus gebruiken we **Windows** voor de uitleg en voorbeelden.
 * We hebben WiFi.
-* Voor het aansluiten van de micro:bit (laatste avond) gebruiken me het met het meegeleverde USB-snoertje van de micro:bit (USB-2).
+* Voor het aansluiten van de micro:bit (laatste avond) gebruiken we het meegeleverde USB-snoertje van de micro:bit (USB-2).
 
 # Eerste avond 18 maart 2025
 
