@@ -23,3 +23,8 @@ Deze cursus biedt een overzichtelijke introductie zonder technische overbelastin
 
 Python is een van de populairste programmeertalen van dit moment. Het is eenvoudig te leren, krachtig en wordt wereldwijd gebruikt in webontwikkeling, dataverwerking, kunstmatige intelligentie en meer.
 
+## Links
+
+[Python Basis cursus](./python basiscursus deel 1.pdf)
+[Python cheatsheet](./main_python-cheat-sheet-roger-wattenhofer.pdf)
+[Python puzzles](./al wat ervaring - python puzzles.pdf)
