@@ -38,4 +38,4 @@ Tijdens de cursusavonden zijn er ook activiteiten in het restaurant van Novalis.
 # Eerste avond 18 maart 2025
 
 Alleen de eerste avond splitsen we de groep in tweeën. Voor degenen die al eens iets met Python hebben gedaan is er een apart programma.
-* https://github.com/VughtseProgrammeerclub/CursusPython_2025_Avond_1
+* [Instructie en opdrachten avond 1](avond1/README.md)
