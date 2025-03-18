@@ -25,6 +25,6 @@ Python is een van de populairste programmeertalen van dit moment. Het is eenvoud
 
 ## Links
 
-* [Python Basis cursus](./python basiscursus deel 1.pdf)
+* [Python Basis cursus](./python%20basiscursus%20deel%201.pdf)
 * [Python cheatsheet](./main_python-cheat-sheet-roger-wattenhofer.pdf)
-* [Python puzzles](./al wat ervaring - python puzzles.pdf)
+* [Python puzzles](./al%20wat%20ervaring%20-%20python puzzles.pdf)
