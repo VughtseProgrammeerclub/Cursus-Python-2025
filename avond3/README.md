@@ -10,7 +10,7 @@
   * [Basisbegrippen in MicroPython (micro:bit)](#basisbegrippen-in-micropython-microbit)
 
 **Voorbeelden**
-
+  * [Blij-droevig](#voorbeeld-blij-droevig)
   * [Steen Papier Schaar](#voorbeeld-steen-papier-schaar)
   * [Stappenteller](#voorbeeld-stappenteller)
   * [Waterpas](#voorbeeld-waterpas)
@@ -242,11 +242,43 @@ Je hoeft de URL niet uit je hoofd te leren! Als je in de Shell van Thonny 'help(
 | **Module**   | Een Python-bestand met functies en klassen | `microbit`, `servo`, `neopixel` |
 
 # Voorbeelden micro:bit
+
+## Voorbeeld blij-droevig
+
+[⬆️](#inhoud)
+
+```python
+# =====================================================
+# Laat afwisselend een blij en een droevig gezicht zien
+# =====================================================
+
+from microbit import *
+
+# Maak een eigen patroon met het Image-object (0 = uit, 9 = maximale helderheid)
+droevig = Image("44444:"
+                "49494:"
+                "44444:"
+                "49994:"
+                "94449:")
+
+while True:
+    display.show(Image.HAPPY)  # Toon een ingebouwde afbeelding (standaard in MicroPython)
+    sleep(500)  
+    display.show(droevig) # Toon een zelfgemaakt patroon (volledig aanpasbaar)
+    sleep(500)
+```
+
+Een overzicht van alle ingebouwde afbeeldingen staat op https://microbit-micropython.readthedocs.io/en/v2-docs/image.html
+
 ## Voorbeeld Steen Papier Schaar
 
 [⬆️](#inhoud)
 
 ```python
+# ============================================================================
+# Na iedere keer schudden met de micro:bit verschijnt een wisslende afbeelding
+# ============================================================================
+
 from microbit import *
 import random
 
@@ -268,6 +300,10 @@ while True:
 [⬆️](#inhoud)
 
 ```python
+# ============================================================================================
+# In de variabele 'stappen' wordt bijgehouden hoeveel stappen de micro:bit heeft geregistreerd
+# ============================================================================================
+
 from microbit import *
 
 stappen = 0  # Variabele om het aantal stappen bij te houden
@@ -286,9 +322,11 @@ while True:
 
 [⬆️](#inhoud)
 
-De led op het 5x5 display van de micro:bit beweegt mee met de stand van de micro:bit.
-
 ```python
+# ====================================================================================
+# De led op het 5x5 display van de micro:bit beweegt mee met de stand van de micro:bit
+# ====================================================================================
+
 from microbit import *
 import utime
 
@@ -330,6 +368,10 @@ while True:
 In dit voorbeeld moet je een Neopixelstrip aansluiten.
 
 ```python
+# ==========================================================================================================
+# Laat de leds op de NeoPixelstrip bewegen en toon met knoppen op de micro:bit twee bekende carnavalsvlaggen
+# ==========================================================================================================
+
 from microbit import *
 import neopixel
 
