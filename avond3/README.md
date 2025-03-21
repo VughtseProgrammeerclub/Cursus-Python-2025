@@ -6,11 +6,12 @@
   * [Thonny en de micro:bit](#thonny-en-de-microbit)
   * [Niet vergeten: Opslaan](#niet-vergeten-opslaan)
   * [De microbitbibliotheek](#de-microbitbibliotheek)
+  * [Firmware micro:bit](#firmware)
   * [Functies in de MicroPython microbit-bibliotheek](#functies-in-de-micropython-microbit-bibliotheek)
   * [Basisbegrippen in MicroPython (micro:bit)](#basisbegrippen-in-micropython-microbit)
 
 **Voorbeelden**
-
+  * [Blij-droevig](#voorbeeld-blij-droevig)
   * [Steen Papier Schaar](#voorbeeld-steen-papier-schaar)
   * [Stappenteller](#voorbeeld-stappenteller)
   * [Waterpas](#voorbeeld-waterpas)
@@ -200,7 +201,9 @@ from microbit import *
 ```
 Deze bibliotheek bevindt zich op de micro:bit en is onderdeel van de firmware van de micro:bit.
 
-- De **firmware** op de micro:bit kan je vergelijken met de BIOS van een computer en regelt alle basisdingen op de micro:bit. Meer over het (updaten van) de firmware staat op https://microbit.org/get-started/user-guide/firmware/.
+### Firmware
+
+De **firmware** op de micro:bit kan je vergelijken met de BIOS van een computer en regelt alle basisdingen op de micro:bit. Meer over het (updaten van) de firmware staat op https://microbit.org/get-started/user-guide/firmware/.
 
 ## Functies in de MicroPython microbit-bibliotheek
 
@@ -242,11 +245,43 @@ Je hoeft de URL niet uit je hoofd te leren! Als je in de Shell van Thonny 'help(
 | **Module**   | Een Python-bestand met functies en klassen | `microbit`, `servo`, `neopixel` |
 
 # Voorbeelden micro:bit
+
+## Voorbeeld blij-droevig
+
+[⬆️](#inhoud)
+
+```python
+# =====================================================
+# Laat afwisselend een blij en een droevig gezicht zien
+# =====================================================
+
+from microbit import *
+
+# Maak een eigen patroon met het Image-object (0 = uit, 9 = maximale helderheid)
+droevig = Image("44444:"
+                "49494:"
+                "44444:"
+                "49994:"
+                "94449:")
+
+while True:
+    display.show(Image.HAPPY)  # Toon een ingebouwde afbeelding (standaard in MicroPython)
+    sleep(500)  
+    display.show(droevig) # Toon een zelfgemaakt patroon (volledig aanpasbaar)
+    sleep(500)
+```
+
+Een overzicht van alle ingebouwde afbeeldingen staat op https://microbit-micropython.readthedocs.io/en/v2-docs/image.html
+
 ## Voorbeeld Steen Papier Schaar
 
 [⬆️](#inhoud)
 
 ```python
+# ============================================================================
+# Na iedere keer schudden met de micro:bit verschijnt een wisslende afbeelding
+# ============================================================================
+
 from microbit import *
 import random
 
@@ -268,6 +303,10 @@ while True:
 [⬆️](#inhoud)
 
 ```python
+# ============================================================================================
+# In de variabele 'stappen' wordt bijgehouden hoeveel stappen de micro:bit heeft geregistreerd
+# ============================================================================================
+
 from microbit import *
 
 stappen = 0  # Variabele om het aantal stappen bij te houden
@@ -286,9 +325,11 @@ while True:
 
 [⬆️](#inhoud)
 
-De led op het 5x5 display van de micro:bit beweegt mee met de stand van de micro:bit.
-
 ```python
+# ====================================================================================
+# De led op het 5x5 display van de micro:bit beweegt mee met de stand van de micro:bit
+# ====================================================================================
+
 from microbit import *
 import utime
 
@@ -330,6 +371,10 @@ while True:
 In dit voorbeeld moet je een Neopixelstrip aansluiten.
 
 ```python
+# ==========================================================================================================
+# Laat de leds op de NeoPixelstrip bewegen en toon met knoppen op de micro:bit twee bekende carnavalsvlaggen
+# ==========================================================================================================
+
 from microbit import *
 import neopixel
 
