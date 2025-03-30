@@ -15,6 +15,7 @@
   * [Steen Papier Schaar](#voorbeeld-steen-papier-schaar)
   * [Stappenteller](#voorbeeld-stappenteller)
   * [Waterpas](#voorbeeld-waterpas)
+  * [Externe led laten knipperen](#voorbeeld-externe-led-laten-knipperen)
   * [Neopixels](#voorbeeld-neopixels)
 
 **Raspberry Pi Pico**
@@ -360,9 +361,42 @@ while True:
     # Wacht kort voordat de volgende meting wordt gedaan
     utime.sleep(0.1)
 ```
+## Voorbeeld Externe led laten knipperen
 
+[⬆️](#inhoud)
 
-## Voorbeeld neopixels
+```python
+# ========================================
+# Led op pin 2 laten knipperen (methode 1)
+# ========================================
+# Dit programma maakt gebruik van de in de micro:bit ingebouwde functie sleep
+
+from microbit import *
+
+while True:
+    pin2.write_digital(1)  # LED aan
+    sleep(500)             # Wacht 500 milliseconden
+    pin2.write_digital(0)  # LED uit
+    sleep(500)             # Wacht 500 milliseconden
+```
+
+``` python
+# ========================================
+# Led op pin 2 laten knipperen (methode 2)
+# ========================================
+# Dit programma maakt gebruik van de standaard Python-bibliotheek time
+
+from microbit import *
+import time
+
+while True:
+    pin2.write_digital(1)  # LED aan
+    time.sleep(0.5)        # Wacht 0,5 seconde
+    pin2.write_digital(0)  # LED uit
+    time.sleep(0.5)        # Wacht 0,5 seconde
+```
+
+## Voorbeeld Neopixels
 
 [⬆️](#inhoud)
 
