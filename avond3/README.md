@@ -365,6 +365,16 @@ while True:
 
 [⬆️](#inhoud)
 
+We gaan een LED (Light Emitting Diode) aansluiten op de micro:bit en deze laten knipperen.
+
+- De lange draad van de LED (de 'plus') komt op P2
+- De korte draad (de 'min') komt op de aansluiting GND (ground)
+ 
+![LED op Pin 2](led-microbit.png)
+
+_Een rode LED werkt op een spanning van 1,8 tot 2,2 volt. Op pin2 komt 3 volt, dit gaat goed zolang je de led maar niet uren op deze spanning laat branden. Om het technisch helemaal netjes te doen zou je een weerstand van ongeveer 220 ohm in het circuit moeten opnemen._
+
+
 ```python
 # ========================================
 # Led op pin 2 laten knipperen (methode 1)
