@@ -39,3 +39,8 @@ Tijdens de cursusavonden zijn er ook activiteiten in het restaurant van Novalis.
 
 Alleen de eerste avond splitsen we de groep in tweeën. Voor degenen die al eens iets met Python hebben gedaan is er een apart programma.
 * [Instructie en opdrachten avond 1](avond1/README.md)
+
+# Tweede avond 1 april 2025
+
+Dingen besturen met microPython. MicroPython is een speciale versie van Python waarmee je microcontrollers kan besturen. Een bekende microcontroller is de Raspberry Pi Pico, maar deze avond gaan we aan de slag met een micro:bit. Deze controller is ontwikkeld voor het onderwijs en heeft verschillende sensoren en een mini-display aan boord. We gaan de micro:bit programmeren met Thonny.
+* [Instructie en opdrachten avond 2](avond2/README.md)
