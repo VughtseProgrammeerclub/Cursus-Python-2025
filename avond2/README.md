@@ -1,4 +1,4 @@
-# Cursus Python 2025 - Avond 3 - MicroPython
+# Cursus Python 2025 - Avond 2 - MicroPython
 ## Inhoud
   * [Microcontrollers](#microcontrollers)
   * [Python vs MicroPython](#python-vs-micropython)
