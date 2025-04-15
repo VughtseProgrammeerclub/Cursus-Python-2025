@@ -127,7 +127,7 @@ De echte DVD logo screensaver verandert ook nog van kleur als de zijkant geraakt
 
 ## Snake besturen met de BBC Micro:bit
 
-Bij het afhandelen van de events kun je ook reageren op toetsenbord events. Met de pijltjes toetsen kun je bijvoorbeeld een potje snake spelen als je `[snake.py](./snake.py)` download. Het interessante stuk is in de oneindige lus waar er gekeken wordt of de events die gebeuren een `KEYDOWN` (toets ingedrukt) event zijn, en zo ja, welke toets het is, bijvoorbeeld `K_UP` (pijltje omhoog).
+Bij het afhandelen van de events kun je ook reageren op toetsenbord events. Met de pijltjes toetsen kun je bijvoorbeeld een potje snake spelen als je [`snake.py`](./snake.py) download. Het interessante stuk is in de oneindige lus waar er gekeken wordt of de events die gebeuren een `KEYDOWN` (toets ingedrukt) event zijn, en zo ja, welke toets het is, bijvoorbeeld `K_UP` (pijltje omhoog).
 
 Maar met een toestenbord spelen is [zoooooo 1976](https://en.wikipedia.org/wiki/Snake_(video_game_genre)). Laten we er een beetje 2016 technology tegenaangooien en een Micro:bit gebruiken. 
 
@@ -184,7 +184,7 @@ with KaspersMicrobit.find_one_microbit() as microbit:
 
 En dat is alles! Nu kun je door het kantelen van je micro:bit de slang in snake besturen.
 
-Het volledige programma is hier te vinden: `[snake-microbit.py](./snake-microbit.py)`
+Het volledige programma is hier te vinden: [`snake-microbit.py`](./snake-microbit.py)
 
 ## Documentatie
 
