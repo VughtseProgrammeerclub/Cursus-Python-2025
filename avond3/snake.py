@@ -34,7 +34,7 @@ font = pygame.font.SysFont('Arial', 20)
 clock = pygame.time.Clock()
 
 while True:
-    clock.tick(10)
+    clock.tick(5)
     
     # Controleer events, zoals welke knoppen ingedrukt zijn
     for e in pygame.event.get():

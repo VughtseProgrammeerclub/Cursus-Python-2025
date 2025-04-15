@@ -42,11 +42,11 @@ snakeimage.fill((255, 0, 0))
 font = pygame.font.SysFont('Arial', 20)
 clock = pygame.time.Clock()
 
-with KaspersMicrobit.find_one_microbit() as microbit:
+with KaspersMicrobit.find_one_microbit('abcde') as microbit:
     microbit.accelerometer.notify(post_accelerometer_event)
     
     while True:
-        clock.tick(10)
+        clock.tick(5)
         
         # Controleer events, zoals welke knoppen ingedrukt zijn
         for e in pygame.event.get():

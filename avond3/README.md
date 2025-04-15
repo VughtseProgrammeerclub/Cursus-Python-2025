@@ -158,9 +158,19 @@ def post_accelerometer_event(data:AccelerometerData):
     pygame.event.post(pygame.event.Event(ACCEL_EVENT, event_dict))
 ```
 
-4. Om verbinding te maken met een Micro:bit gebruiken we het volgende stukje code. Dit moet om de oneindige loop heen, dus alles vanaf `while True:` tot het eind moet een extra tabje geïndenteerd worden. 
+4. Bepaal de 5-letterige Bluetooth naam van je Micro:bit:
+    1. Houdt de A, B en Reset knop op de Micro:bit ingedrukt
+    2. Laat alleen de Reset knop los.
+    3. De Micro:bit gaat nu in Bluetooth pairing modus en laat een code zien
+    4. Vertaal de code met deze sleutel:
+
+        ![find microbit device name](microbit-device-name.png)
+    
+    5. Druk de Reset knop in, en een b met een pijltje rechtsboven wordt weergegeven op het scherm
+
+5. Om verbinding te maken met een Micro:bit gebruiken we het volgende stukje code, waarbij je `abcde` vervangt door de Bluetooth naam van je Micro:bit. Dit moet om de oneindige loop heen, dus alles vanaf `while True:` tot het eind moet een extra tabje geïndenteerd worden.
 ```python
-with KaspersMicrobit.find_one_microbit() as microbit:
+with KaspersMicrobit.find_one_microbit('abcde') as microbit:
 ```
 
 5. In de `with` knopen we de functie uit stap 3 aan de accelerometer van de Micro:bit
