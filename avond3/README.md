@@ -84,12 +84,12 @@ Probeer gerust je programma uit tussen de volgende stappen om te kijken wat er v
 
 1. Kopieer het eerste programma naar een nieuw bestand binnen Thonny, zodat we het kunnen hergebruiken.
 2. Hernoem `ball` naar `logo` (tip: Ctrl + F is "Find and Replace").
-3. Verander het plaatje wat we inladen op regel 10 van `intro_ball.gif` naar `[dvdlogo0.png](./dvdlogo0.png)`.
+3. Verander het plaatje wat we inladen op regel 10 van `intro_ball.gif` naar [`dvdlogo0.png`](./dvdlogo0.png).
 4. De snelheid is momenteel een vector in verticale richting: `[0, 2]` betekent dat de x-as niet wijzigt en de y-as wel. Verander deze vector zodat de x-as ook met 2 pixels per frame verandert.
 5. Het terugkaatsen tegen de rand gebeurt door de snelheid negatief te maken zodat het logo weer terug beweegt. De intro_ball had dit alleen voor de y-as, voor het DVD logo willen we dit gedrag ook op de x-as, anders verdwijnt het logo uit het scherm. Welke twee regels code moet je hiervoor kopiëren en aanpassen?
 6. De snelheid mag ook wel iets omhoog. Probeer `[4, 4]` eens.
 
-Mocht je willen spieken naar de oplossing, dan kun je die vinden in het bestand `[pygame-dvd.py](./pygame-dvd.py)`.
+Mocht je willen spieken naar de oplossing, dan kun je die vinden in het bestand [`pygame-dvd.py`](./pygame-dvd.py).
 
 ## Nog iets moeilijker: stuiterend DVD logo dat op een willekeurige plek op het scherm begint
 
