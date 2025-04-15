@@ -44,3 +44,8 @@ Alleen de eerste avond splitsen we de groep in tweeën. Voor degenen die al eens
 
 Dingen besturen met microPython. MicroPython is een speciale versie van Python waarmee je microcontrollers kan besturen. Een bekende microcontroller is de Raspberry Pi Pico, maar deze avond gaan we aan de slag met een micro:bit. Deze controller is ontwikkeld voor het onderwijs en heeft verschillende sensoren en een mini-display aan boord. We gaan de micro:bit programmeren met Thonny.
 * [Instructie en opdrachten avond 2](avond2/README.md)
+
+# Derde avond 15 april 2025
+
+Grafisch programmeren met Python en Pygame. Hoewel Pygame primair wordt gebruikt voor het maken van spellen, is het niet beperkt tot alleen gameontwikkeling. Pygame biedt een framework voor het creëren van interactieve multimedia-applicaties.
+* [Instructie en opdrachten avond 3](avond3/README.md)
