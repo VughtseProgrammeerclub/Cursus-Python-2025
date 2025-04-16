@@ -203,3 +203,4 @@ Wat handige links voor als je met PyGame aan de slag gaat:
 * [Pygame introduction](https://www.pygame.org/docs/tut/PygameIntro.html)
 * [Newbie guide](https://www.pygame.org/docs/tut/newbieguide.html)
 * [How to control a pygame program with a micro:bit using Kasper's micro:bit](https://www.youtube.com/watch?v=UsZqoSYZBbU)
+* [Kaspersmicrobit](https://github.com/janickr/kaspersmicrobit)
